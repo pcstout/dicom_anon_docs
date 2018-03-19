@@ -23,4 +23,4 @@
 Anonymize a folder that contains DICOM files.
 
 1. Open a command prompt and change directory to the folder were you installed the tool.
-2. Execute `java -jar DAT.jar -da . -dpa . -in c:\my_dicoms -out c:\my_anon_dicoms` (change `my_dicoms` to the location of your DICOMs and `my_anon_dicoms` to a folder where the anonymized files will be stored.)
+2. Execute `java -jar DAT.jar -da dicom-anonymizer.script -dpa dicom-pixel-anonymizer.script -in c:\my_dicoms -out c:\my_anon_dicoms` (change `my_dicoms` to the location of your DICOMs and `my_anon_dicoms` to a folder where the anonymized files will be stored.)
